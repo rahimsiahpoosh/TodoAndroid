@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="b1">NEW NOTE</string>
+    <string name="e1" />
+    <string name="b2">ADD</string>
+    <string name="e2" />
+    <string name="e3" />
+    <string name="b3">UPDATE</string>
+    <string name="b4">DELETE</string>
+    <string name="help">Item</string>
+    <string name="menu1">menu1resource</string>
+    <string name="menu2">menu2resource</string>
+</resources>

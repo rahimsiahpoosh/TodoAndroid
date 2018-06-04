@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_note"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ebookfrenzy.com.todo.UpdateNote">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/e2"
+        android:ems="10"
+        android:id="@+id/editText2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="LabelFor"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <EditText
+        android:layout_width="312dp"
+        android:layout_height="204dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintLeft_toLeftOf="@+id/editText2"
+        app:layout_constraintRight_toRightOf="@+id/editText2"
+        android:text="@string/e3"
+        android:gravity="top|left"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <Button
+        android:text="@string/b3"
+        android:layout_width="156dp"
+        android:layout_height="55dp"
+        android:id="@+id/button3"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintLeft_toLeftOf="@+id/editText3" />
+
+    <Button
+        android:text="@string/b4"
+        android:layout_width="153dp"
+        android:layout_height="55dp"
+        android:id="@+id/button4"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintRight_toRightOf="@+id/editText3"
+        app:layout_constraintLeft_toLeftOf="@+id/editText3"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>
